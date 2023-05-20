@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.NavbarTop {
+  height: 50px;
+  background: black;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.NavbarLeft {
+  color: #fafaf3;
+  margin-left: 10px;
+  padding: 5px 5px 2px 5px;
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.Amazonlogo {
+  width: 100px;
+  margin: 18px 20px 0 20px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.NavbarSearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.NavbarSearchInput {
+  width: 100%;
+  height: 36px;
+  padding: 10px;
+}
+
+.NavbarSearchIcon {
+  background: #f6f608;
+  cursor: pointer;
+  height: 36px;
+}
+
+.NavbarLinks,
+.NavbarLinks span {
+  display: flex;
+  justify-content: center;
+}
+
+.NavbarLinks:first-child {
+  width: 130px;
+}
+
+.NavbarLinks {
+  color: aliceblue;
+}
+
+.NavbarLinks .NavbarLinkOptions .NavbarLinkOptionOne {
+  font-size: 12px;
+}
+
+.NavbarLinks .NavbarLinkOptions .NavbarLinkOptionTwo {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.navbar .NavbarLinkOptionsBasket {
+  display: flex;
+  align-items: center;
+  color: #fafaf3;
+}
+
+.navbar .NavbarLinkOptionsBasket .BasketCount {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 100px;
+  margin: 0 15px -20px -10px;
+}
+
+.navbar.NavbarBottom {
+  background: black;
+  padding-top: 5px;
+  height: 42px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar.NavbarAddressIcon {
+  vertical-align: middle;
+}
+
+.NavbarBottomNav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.NavbarBottomNav span {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+}
